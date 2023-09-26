@@ -130,7 +130,7 @@ Special thanks to the open-source communities behind `Apache Airflow,` `Python`,
 This ETL project showcases a comprehensive workflow for extracting, transforming, and loading data into a cloud-based data warehouse while also creating interactive dashboards for data exploration and analysis.
 
 ## Contacts
-For any questions or inquiries related to this project, feel free to contact:) 
+For any questions or inquiries related to this project, feel free to contact me :) 
 
 - linkedin : <a href="https://www.linkedin.com/in/aymane-maghouti/" target="_blank">Aymane Maghouti</a><br>
 - Email: `aymanemaghouti@gmail.com`
