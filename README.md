@@ -5,16 +5,15 @@
 1. [Project Overview](#project-overview)
 3. [Technologies Used](#technologies-used)
 4. [Data Pipeline](#data-pipeline)
-5. [ETL Process](#eTL-process)
-6. [Repository Structure](#repository-structure)
-7. [Prerequisites](#prerequisites)
-8. [Configuration](#configuration)
-9. [Running the Project](#running-the-project)
-10. [Cleaning Up](#cleaning-up)
-11. [Dashboard](#dashboard)
-12. [Acknowledgments](#acknowledgments)
-13. [Conclusion](#conclusion)
-14. [Contacts](#contacts)
+5. [Repository Structure](#repository-structure)
+6. [Prerequisites](#prerequisites)
+7. [Configuration](#configuration)
+8. [Running the Project](#running-the-project)
+9. [Cleaning Up](#cleaning-up)
+10. [Dashboard](#dashboard)
+11. [Acknowledgments](#acknowledgments)
+12. [Conclusion](#conclusion)
+13. [Contacts](#contacts)
 
 ## Project Overview
 This ETL (Extract, Transform, Load) project demonstrates the process of extracting data from a SQL Server database, transforming it using Python, orchestrating the data pipeline with Apache Airflow (running in a Docker container), loading the transformed data into Google BigQuery data warehouse, and finally creating a dashboard using Looker Studio.
@@ -30,10 +29,6 @@ The following technologies and tools were used in this project:
 
 ## Data Pipeline
 Here is the sales data pipeline :
-
-
-## ETL Process
-The ETL process involves extracting data from the source database, applying data transformations, and loading the transformed data into BigQuery. This project's ETL process is orchestrated by Apache Airflow, ensuring reliable and scheduled execution.
 
 ![sales_Data_pipeline](images/sales_Data_pipeline.png)
 
@@ -76,14 +71,14 @@ Before running this project, you should have the following prerequisites install
 ## Configuration
 Before running the ETL project, you'll need to configure some settings:
 
-### ETL Configuration
+##### ETL Configuration
 In `etl_script.py`, modify the following variables:
 
 - `BIGQUERY_PROJECT_ID`: Your GCP project ID where BigQuery is located.
 
 - `BIGQUERY_DATASET_ID`: The BigQuery dataset where you want to load the transformed data.
 
-### Apache Airflow Configuration
+##### Apache Airflow Configuration
 In the `docker-compose.yml` file, configure Airflow environment variables such as database connection, authentication, and DAG location.
 
 
