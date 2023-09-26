@@ -1,6 +1,5 @@
 # Sales ETL Project 
 
-# Human Resources ETL Project
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -10,8 +9,6 @@
 6. [Repository Structure](#repository-structure)
 7. [Prerequisites](#prerequisites)
 8. [Configuration](#configuration)
-    8.1 [ETL Configuration](#etl-configuration)
-    8.2 [Apache Airflow Configuration](#apache-airflow-configuration)
 9. [Running the Project](#running-the-project)
 10. [Cleaning Up](#cleaning-up)
 11. [Dashboard](#dashboard)
