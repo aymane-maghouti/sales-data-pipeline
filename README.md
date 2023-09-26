@@ -38,7 +38,7 @@ Here is the sales data pipeline :
 ## ETL Process
 The ETL process involves extracting data from the source database, applying data transformations, and loading the transformed data into BigQuery. This project's ETL process is orchestrated by Apache Airflow, ensuring reliable and scheduled execution.
 
-![sales_Data_pipeline](images/sales_data_pipeline.png)
+![sales_Data_pipeline](images/sales_Data_pipeline.png)
 
 
 ## Repository Structure
@@ -68,7 +68,7 @@ note that the json file contains your project  metadata and some other informati
 ## Prerequisites
 Before running this project, you should have the following prerequisites installed and configured:
 
-1. Python: Install Python (version > 3.x) on your system.
+1. Python: Install Python (version >= 3.x) on your system.
 
 2. Apache Airflow: Set up Apache Airflow, and ensure it's running in a Docker container. 
 
