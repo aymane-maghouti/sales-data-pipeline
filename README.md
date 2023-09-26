@@ -127,7 +127,7 @@ Here is the sales Dashboard created in Looker Studio:
 Special thanks to the open-source communities behind `Apache Airflow,` `Python`, and `Looker Studio` for providing powerful tools for data extraction, transformation, orchestration, and visualization.
 
 ## Conclusion
-This ETL project showcases a comprehensive workflow for extracting, transforming, and loading data into a cloud-based data warehouse while also creating interactive dashboards for data exploration and analysis. Customize this project to fit your specific data sources and business requirements to unlock the full potential of your data.
+This ETL project showcases a comprehensive workflow for extracting, transforming, and loading data into a cloud-based data warehouse while also creating interactive dashboards for data exploration and analysis.
 
 ## Contacts
 For any questions or inquiries related to this project, feel free to contact:) 
