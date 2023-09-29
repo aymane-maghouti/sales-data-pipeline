@@ -53,7 +53,7 @@ sales_data_pipeline:.
         sales_data_sqlserver.png
 ```
 
-note that the json file contains your project  metadata and some other information, you can generate from your ptoject on GCP (BigQuery) Here is a capture of the file  :
+note that the json file contains your project  meta-data and some other informations, you can generate it from your ptoject craeted on GCP (BigQuery) Here is a capture of the file  :
 
 ![project metadata](images/project_metadata.png)
 
@@ -72,7 +72,7 @@ Before running this project, you should have the following prerequisites install
 Before running the ETL project, you'll need to configure some settings:
 
 ##### ETL Configuration
-In `etl_script.py`, modify the following variables:
+In `etl_script.ipynb`, modify the following variables:
 
 - `BIGQUERY_PROJECT_ID`: Your GCP project ID where BigQuery is located.
 
@@ -104,7 +104,7 @@ Follow these steps to run the ETL project:
  ![data in BigQuery](images/data_in_bigQuery.png)
 
 
-5. In Looker Studio, you can now create a dashboard
+5. In Looker Studio, after connecting to bigQuery, you can now create a dashboard
 
 
 ## Cleaning Up
@@ -127,7 +127,7 @@ Here is the sales Dashboard created in Looker Studio:
 Special thanks to the open-source communities behind `Apache Airflow,` `Python`, and `Looker Studio` for providing powerful tools for data extraction, transformation, orchestration, and visualization.
 
 ## Conclusion
-This ETL project showcases a comprehensive workflow for extracting, transforming, and loading data into a cloud-based data warehouse while also creating interactive dashboards for data exploration and analysis.
+This ETL project showcases a comprehensive workflow for extracting, transforming, and loading data into a cloud-based data warehouse while also creating interactive dashboard for data exploration and analysis.
 
 ## Contacts
 For any questions or inquiries related to this project, feel free to contact me :) 
