@@ -25,7 +25,7 @@ The following technologies and tools were used in this project:
 - Apache Airflow: To orchestrate the ETL pipeline.
 - Docker: To run the Apache Airflow instance in a container.
 - Google Cloud Platform (GCP): For BigQuery data warehousing.
-- Looker Studio: For creating and sharing dashboards.
+- Looker Studio: For creating the dashboard.
 
 ## Data Pipeline
 Here is the sales data pipeline :
